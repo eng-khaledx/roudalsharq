@@ -271,5 +271,83 @@
     "transmission": "أوتوماتيك",
     "image": "https://aamotors.scene7.com/is/image/alabdulghanimotors/040_34?fmt=png-alpha&dpr=on%2C1",
     "description": "الوصف"
+  },
+  {
+    "id": 22,
+    "name": "هيونداي اكسنت 1.5 فليت 2026",
+    "brand": "HYUNDAI",
+    "model": "Accent",
+    "year": 2026,
+    "price": 60950,
+    "interest_rate": 3.99,
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": "https://alemaratcars.com/wp-content/uploads/2024/08/acnt01.png",
+    "description": "الوصف"
+  },
+  {
+    "id": 23,
+    "name": "هيونداي اكسنت 1.5 سمارت 2025",
+    "brand": "HYUNDAI",
+    "model": "Accent",
+    "year": 2025,
+    "price": 60950,
+    "interest_rate": 3.99,
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": "https://s3.eu-central-1.amazonaws.com/v3-cfs.motory.com/vehicle-used/800x600/l-1770283639.3981-6984627761322.webp",
+    "description": "الوصف"
+  },
+  {
+    "id": 24,
+    "name": "شيري جايكو J5 ستاندر 2026",
+    "brand": "chery",
+    "model": "jaecoo",
+    "year": 2026,
+    "price": 60000,
+    "interest_rate": 3.99,
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": "https://omodajaecoo-dubai.ae/wp-content/uploads/2025/08/JAECOO-J5-ELITE.webp",
+    "description": "الوصف"
+  },
+  {
+    "id": 25,
+    "name": "كيا كي 5 محرك 2.5 بانوراما 2025",
+    "brand": "KIA",
+    "model": "K5",
+    "year": 2025,
+    "price": 95000,
+    "interest_rate": 3.99,
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": "https://alcf.s3.us-west-1.amazonaws.com/_custom/2025/kia/k5/2025%20kia%20k5%20%281%29.png",
+    "description": "الوصف"
+  },
+  {
+    "id": 26,
+    "name": "هوندا ZRV ستاندر خليجي 2025",
+    "brand": "HONDA",
+    "model": "ZRV",
+    "year": 2025,
+    "price": 97750,
+    "interest_rate": 3.99,
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": "https://legion-images.hatla2ee.com/original_image/56236526-f6d9-40d7-bd82-83f89356b131/large.jpg",
+    "description": "الوصف"
+  },
+  {
+    "id": 27,
+    "name": "شيري تيجو 4 برو ستاندر 2025",
+    "brand": "chery",
+    "model": "tiggo 4",
+    "year": 2025,
+    "price": 46000,
+    "interest_rate": 3.99,
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": "https://chery-ampang.com/wp-content/uploads/2026/02/tw3.png",
+    "description": "الوصف"
   }
 ]
