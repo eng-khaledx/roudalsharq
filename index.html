@@ -171,51 +171,9 @@
   <!-- Home Page -->
   <div id="home" class="page active">
     <!-- Hero -->
-    <section class="hero-gradient py-20 lg:py-32">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid lg:grid-cols-2 gap-12 items-center">
-          <div class="space-y-8">
-            <div class="inline-block px-4 py-2 bg-[#C9A961]/10 rounded-full">
-              <span class="text-gold font-bold text-sm">✨ عروض تمويل حصرية</span>
-            </div>
-            <h2 class="text-5xl lg:text-6xl font-black leading-tight">
-              امتلك سيارة أحلامك
-              <span class="block text-gold mt-2">بالتقسيط الميسر</span>
-            </h2>
-            <p class="text-xl text-gray-600 leading-relaxed">
-              في رود الشرق نوفر لك أفضل عروض تقسيط السيارات الجديدة والمستعملة بأقل نسبة فائدة وأسهل إجراءات في الرياض
-            </p>
-            <div class="flex flex-wrap gap-4">
-              <button onclick="showPage(&#39;cars&#39;)" class="btn-gold px-8 py-4 rounded-xl font-bold text-lg">
-                تصفح السيارات
-                <i class="fa-solid fa-arrow-left mr-2"></i>
-              </button>
-              <a href="https://wa.me/966539335707?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D9%85%D8%B9%D8%B1%D9%81%D8%A9%20%D8%B9%D8%B1%D9%88%D8%B6%20%D8%A7%D9%84%D8%AA%D9%82%D8%B3%D9%8A%D8%B7" target="_blank" class="px-8 py-4 rounded-xl border-2 border-gold text-gold font-bold text-lg hover:bg-gold hover:text-white transition">
-                <i class="fab fa-whatsapp ml-2"></i>
-                استشارة مجانية
-              </a>
-            </div>
-            <div class="flex items-center gap-8 pt-4">
-              <div>
-                <div class="text-3xl font-black text-gold">500+</div>
-                <div class="text-sm text-gray-600">عميل سعيد</div>
-              </div>
-              <div>
-                <div class="text-3xl font-black text-gold">10+</div>
-                <div class="text-sm text-gray-600">سيارة متوفرة</div>
-              </div>
-              <div>
-                <div class="text-3xl font-black text-gold">3.99%</div>
-                <div class="text-sm text-gray-600">نسبة فائدة تبدأ من</div>
-              </div>
-            </div>
-          <div class="relative">
-            <div class="absolute -inset-4 bg-gradient-to-r from-[#C9A961]/20 to-[#A88946]/20 rounded-3xl blur-3xl"></div>
-            <img src="./رود الشرق _ Road Al Sharq - تقسيط السيارات بالرياض_files/photo-1617814076367-b759c7d7e738" alt="سيارات فاخرة" class="relative rounded-3xl shadow-2xl w-full h-[500px] object-cover">
-          </div>
-        </div>
-      </div>
-    </div></section>
+    <section class="relative overflow-hidden">
+      <img src="images/hero.png" class="w-full" style="display:block;">
+    </section>
 
     <!-- Features -->
     <section class="py-20 bg-gray-50">
@@ -830,7 +788,7 @@ function createCarCard(car) {
   return `
     <div class="card overflow-hidden cursor-pointer" onclick="showCarDetails(${car.id})">
       <div class="relative h-56 overflow-hidden">
-        <img src="${car.image}" alt="${car.name}" class="w-full h-full object-cover hover:scale-110 transition-transform duration-500">
+        <img src="${car.image}" alt="${car.name}" class="w-full h-full object-cover object-top hover:scale-110 transition-transform duration-500">
         <div class="absolute top-4 right-4 bg-gold text-white px-3 py-1 rounded-full text-sm font-bold">${car.year}</div>
       </div>
       <div class="p-6">
