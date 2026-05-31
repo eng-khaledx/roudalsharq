@@ -258,5 +258,18 @@
     "transmission": "أوتوماتيك",
     "image": "https://s3.eu-central-1.amazonaws.com/v3-ncg.motory.com/vehicle-new/800x600/l-1777904062.6805-69f8a9bea6250_outbound.webp",
     "description": "الوصف"
+  },
+  {
+    "id": 21,
+    "name": "لاندكروزر GXR4 بنزين 2026",
+    "brand": "TOYOTA",
+    "model": "land cruiser",
+    "year": 2026,
+    "price": 322000,
+    "interest_rate": 3.99,
+    "fuel": "بنزين",
+    "transmission": "أوتوماتيك",
+    "image": "https://aamotors.scene7.com/is/image/alabdulghanimotors/040_34?fmt=png-alpha&dpr=on%2C1",
+    "description": "الوصف"
   }
 ]
